@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+.swiper-pagination-progressbar {
+   /* Adjust this value to position the progress bar */
+  margin-top: 80px;
+  transform: translateY(0);
+  background: rgb(234 88 12 );
+  display: hidden;
+}
+
+.swiper-pagination-progressbar-fill {
+  background: rgb(12, 230, 234);
+  
+}
+
+@media screen and (max-width: 450px) {
+  .swiper-pagination-progressbar {
+   /* Adjust this value to position the progress bar */
+  margin-top: 105px;
+  /* display: hidden; */
+
+}
+}
