@@ -16,7 +16,7 @@ import {TiSocialPinterest} from 'react-icons/ti'
 const Discover = () => {
   return (
     <div
-      className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center"
+      className="bg-slate-900 min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center"
       style={DiscoverImageStyle}
     >
       <div style={DiscoverOverlayStyle}></div>
@@ -57,7 +57,7 @@ const Discover = () => {
           </div>
         </div>
       </div>
-      <div className="z-20 top-0 bottom-0 flex mt-[10vh] items-end text-white p-4 justify-between">
+      <div className="z-20 top-0 bottom-0 flex pt-[10vh] items-end text-white p-4 justify-between">
         <SlSocialInstagram className="text-3xl hover:text-orange-600" />
         <SlSocialDribbble className="text-3xl hover:text-orange-600" />
         <SlSocialBehance className="text-3xl hover:text-orange-600" />

@@ -6,7 +6,7 @@ import Discover from './Discover'
 
 const Landing = () => {
   return (
-    <div className=''>
+    <div className='bg-slate-900 my-0 py-0'>
       <Hero/>
       <PopularTours/>
       <Discover/>
