@@ -57,7 +57,7 @@ const Discover = () => {
           </div>
         </div>
       </div>
-      <div className="z-20 top-0 bottom-0 flex pt-[10vh] items-end text-white p-4 justify-between">
+      <div className="z-20 top-0 bottom-0 flex items-end text-white p-4 justify-between">
         <SlSocialInstagram className="text-3xl hover:text-orange-600" />
         <SlSocialDribbble className="text-3xl hover:text-orange-600" />
         <SlSocialBehance className="text-3xl hover:text-orange-600" />

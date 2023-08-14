@@ -104,7 +104,7 @@ export const DiscoverOverlayStyle = {
   backgroundColor: "rgba(0, 0, 0, .6)",
   width: "100%",
   position: "absolute",
-  minHeight: "100%",
+  height: "100vh",
   left: 0,
   zIndex: 0,
 };
