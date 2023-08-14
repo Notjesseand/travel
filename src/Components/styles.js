@@ -23,7 +23,7 @@ export const overlayStyle = {
   backgroundColor: "rgba(0, 0, 0, 0.43)",
   width: "100%",
   position: "absolute",
-  height: "103vh",
+  height: "102vh",
   top: 0,
   left: 0,
   zIndex: 0,
