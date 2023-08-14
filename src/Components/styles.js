@@ -20,19 +20,21 @@ import Image12 from "../assets/tour12.jpeg";
 import Image13 from "../assets/tour13.jpeg";
 
 export const overlayStyle = {
-  backgroundColor: "rgba(0, 0, 0, 0.43)", 
+  backgroundColor: "rgba(0, 0, 0, 0.43)",
   width: "100%",
   position: "absolute",
-  height: "100vh",
+  height: "103vh",
   top: 0,
   left: 0,
-  zIndex: 0, 
+  zIndex: 0,
+  // backgroundAttachment: "fixed",
 };
 
 export const backgroundImageStyle = {
   backgroundImage: `url(${Background})`,
   backgroundSize: "cover",
   backgroundPosition: "top",
+  backgroundAttachment: "fixed",
 };
 
 export const PageData = [
@@ -55,7 +57,7 @@ export const PageData = [
   {
     text: " Adventure Awaits: Choose Your Perfect Tour Package  ",
     icon: SiHappycow,
-  }
+  },
 ];
 
 export const ToursAds = [
@@ -105,6 +107,7 @@ export const DiscoverOverlayStyle = {
   width: "100%",
   position: "absolute",
   height: "100vh",
+  backgroundAttachment: "fixed",
   left: 0,
   zIndex: 0,
 };
@@ -113,4 +116,5 @@ export const DiscoverImageStyle = {
   backgroundImage: `url(${Discover})`,
   backgroundSize: "cover",
   backgroundPosition: "top",
+  backgroundAttachment: "fixed",
 };
