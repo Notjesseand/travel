@@ -27,8 +27,15 @@ export const overlayStyle = {
   top: 0,
   left: 0,
   zIndex: 0,
-  // backgroundAttachment: "fixed",
+  backgroundAttachment: "fixed",
+
 };
+if (window.matchMedia("(max-width: 500px)").matches) {
+  // Apply styles specific to max-width: 450px here
+  overlayStyle.height = "100vh";
+  // You can add more properties as needed
+}
+
 
 export const backgroundImageStyle = {
   backgroundImage: `url(${Background})`,
