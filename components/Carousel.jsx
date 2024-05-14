@@ -41,7 +41,7 @@ const Carousel = () => {
       <SwiperSlide className="flex h-24 bg-inherit text-white text-center w-full mt-3">
         <p className="flex">
           <BsGlobeAsiaAustralia className="text-2xl text-orange-700" />
-          Discover the World's Most Breathtaking Destinations
+          Discover the World&apso;s Most Breathtaking Destinations
         </p>
       </SwiperSlide>{" "}
       <SwiperSlide className="flex h-24 bg-inherit text-white text-center w-full mt-3">

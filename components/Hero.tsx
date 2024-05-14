@@ -19,9 +19,9 @@ const Hero = () => {
             Travel Time
           </p>
           <p className="text-white ">
-            Don't let the loud noise scare you, <br /> Let the rythms of the
-            dance amuse you. <br /> You're given a very rare chance <br /> Feel
-            the movement of our ancestors
+            Don&apos;t let the loud noise scare you, <br /> Let the rythms of
+            the dance amuse you. <br /> You&apos;re given a very rare chance{" "}
+            <br /> Feel the movement of our ancestors
           </p>
         </div>
         <div className="hidden md:block">

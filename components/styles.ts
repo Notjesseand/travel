@@ -19,7 +19,7 @@ import Image11 from "@/public/tour11.jpeg";
 import Image12 from "@/public/tour12.jpeg";
 import Image13 from "@/public/tour13.jpeg";
 
-export const overlayStyle = {
+export const overlayStyle: React.CSSProperties = {
   backgroundColor: "rgba(0, 0, 0, 0.43)",
   width: "100%",
   position: "absolute",
@@ -29,13 +29,8 @@ export const overlayStyle = {
   zIndex: 0,
   backgroundAttachment: "fixed",
 };
-if (window.matchMedia("(max-width: 500px)").matches) {
-  // Apply styles specific to max-width: 450px here
-  overlayStyle.height = "100vh";
-  // You can add more properties as needed
-}
 
-export const backgroundImageStyle = {
+export const backgroundImageStyle: React.CSSProperties = {
   backgroundImage: `url(${Background})`,
   backgroundSize: "cover",
   backgroundPosition: "top",
@@ -107,7 +102,7 @@ export const ToursAds = [
   },
 ];
 
-export const DiscoverOverlayStyle = {
+export const DiscoverOverlayStyle: React.CSSProperties = {
   backgroundColor: "rgba(0, 0, 0, .6)",
   width: "100%",
   position: "absolute",
@@ -117,7 +112,7 @@ export const DiscoverOverlayStyle = {
   zIndex: 0,
 };
 
-export const DiscoverImageStyle = {
+export const DiscoverImageStyle: React.CSSProperties = {
   backgroundImage: `url(${Discover})`,
   backgroundSize: "cover",
   backgroundPosition: "top",

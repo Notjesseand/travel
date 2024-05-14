@@ -12,26 +12,21 @@ import image1 from "@/public/tour1.jpeg";
 import { ToursAds } from "./styles";
 
 const ToursCarosel = () => {
-  const screenWidth = window.innerWidth;
-  let slidesPerView = 4; // Default for larger screens
-
-  switch (true) {
-    case screenWidth <= 520:
-      slidesPerView = 1; // Mobile screens
-      break;
-    case screenWidth <= 824:
-      slidesPerView = 2; // Tablet screens
-      break;
-    default:
-      slidesPerView = 4; // Larger screens
-  }
-
   console.log(ToursAds, "bu toursad");
 
   return (
     <div className="">
       <Swiper
-        slidesPerView={slidesPerView}
+        breakpoints={{
+          // when window width is >= 768px
+          308: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
         spaceBetween={30}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         modules={[Pagination, Autoplay]}
