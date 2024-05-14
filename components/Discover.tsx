@@ -10,7 +10,7 @@ import { TiSocialPinterest } from "react-icons/ti";
 
 const Discover = () => {
   return (
-    <div className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center bg-[url(/background4.jpeg)] bg-cover bg-top bg-fixed relative">
+    <div className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center bg-[url(/waves.png)] bg-cover bg-center bg-fixed relative">
       <div className="bg-[url(/background4.jpg)] bg-black bg-opacity-60 w-full absolute h-screen inset-0 left-0 z-0"></div>
       <div className=" h-full flex flex-col justify-center font-bold z-50 relative">
         <p className="text-white text-5xl md:text-6xl md:w-[40%]">

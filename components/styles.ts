@@ -1,5 +1,3 @@
-import Background from "@/public/background4.jpeg";
-import Discover from "@/public/discover.jpeg";
 import { IoMdPin } from "react-icons/io";
 import { MdOutlineExplore } from "react-icons/md";
 import { BsGlobeAsiaAustralia } from "react-icons/bs";
@@ -19,7 +17,7 @@ export const overlayStyle: React.CSSProperties = {
 };
 
 export const backgroundImageStyle: React.CSSProperties = {
-  backgroundImage: `url(${Background})`,
+  // backgroundImage: `url(${Background})`,
   backgroundSize: "cover",
   backgroundPosition: "top",
   backgroundAttachment: "fixed",
@@ -101,7 +99,7 @@ export const DiscoverOverlayStyle: React.CSSProperties = {
 };
 
 export const DiscoverImageStyle: React.CSSProperties = {
-  backgroundImage: `url(${Discover})`,
+  // backgroundImage: `url(${Discover})`,
   backgroundSize: "cover",
   backgroundPosition: "top",
   backgroundAttachment: "fixed",

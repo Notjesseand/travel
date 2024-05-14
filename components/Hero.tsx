@@ -1,5 +1,4 @@
 import React from "react";
-import Background from "@/public/background.jpeg";
 import Header from "./Header";
 import { overlayStyle, backgroundImageStyle } from "./styles";
 import Carousel from "./Carousel";
