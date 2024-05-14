@@ -5,19 +5,7 @@ import { MdOutlineExplore } from "react-icons/md";
 import { BsGlobeAsiaAustralia } from "react-icons/bs";
 import { FaGift } from "react-icons/fa";
 import { SiHappycow } from "react-icons/si";
-import Image1 from "@/public/tour1.jpeg";
-import Image2 from "@/public/tour2.jpeg";
-import Image3 from "@/public/tour3.jpeg";
-import Image4 from "@/public/tour4.jpeg";
-import Image5 from "@/public/tour5.jpeg";
-import Image6 from "@/public/tour6.jpeg";
-import Image7 from "@/public/tour7.jpeg";
-import Image8 from "@/public/tour8.jpeg";
-import Image9 from "@/public/tour9.jpeg";
-import Image10 from "@/public/tour10.jpeg";
-import Image11 from "@/public/tour11.jpeg";
-import Image12 from "@/public/tour12.jpeg";
-import Image13 from "@/public/tour13.jpeg";
+
 
 export const overlayStyle: React.CSSProperties = {
   backgroundColor: "rgba(0, 0, 0, 0.43)",

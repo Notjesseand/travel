@@ -8,8 +8,8 @@ import MobileCarousel from "./MobileCarousel";
 const Hero = () => {
   return (
     <div
-      className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col bg-[url(/background4.jpeg)]"
-      style={backgroundImageStyle}
+      className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col bg-[url(/new-bg.png)] bg-bottom bg-cover bg-fixed"
+      // style={backgroundImageStyle}
     >
       <div style={overlayStyle}></div>
       <div className="relative">
