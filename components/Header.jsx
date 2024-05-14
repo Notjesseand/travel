@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Logo from "@/public/logo.png";
 import { TfiSearch } from "react-icons/tfi";
 import { FaBars } from "react-icons/fa";
+import Link from "next/link";
 
 const Header = () => {
   const [bars, setBars] = useState(false);
@@ -57,7 +58,10 @@ const Header = () => {
           Main
         </p>
         <p className="cursor-pointer hover:text-orange-600">About Us</p>
+        <Link href="/tours">
+
         <p className="cursor-pointer hover:text-orange-600">Tours</p>
+        </Link>
         <p className="cursor-pointer hover:text-orange-600">Gallery</p>
         <p className="cursor-pointer hover:text-orange-600">Reviews</p>
         <p className="cursor-pointer hover:text-orange-600">Contacts</p>
