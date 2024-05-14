@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import PopularTours from "@/components/PopularTours";
 import Discover from "@/components/Discover";
 
-const Landing = () => {
+export default function Page() {
   return (
     <div className="bg-slate-900 my-0 py-0 font-custom">
       <Hero />
@@ -13,6 +13,4 @@ const Landing = () => {
       <Discover />
     </div>
   );
-};
-
-export default Landing;
+}
