@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Hero from "@/components/Hero";
-
 import PopularTours from "@/components/PopularTours";
 import Discover from "@/components/Discover";
 
