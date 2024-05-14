@@ -25,3 +25,33 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.text-area-wrapper textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #ff0000; /* Adjust text color as needed */
+  resize: none;
+  outline: none;
+}
+
+.blinking-cursor::after {
+  content: '';
+  position: absolute;
+  width: 2px; /* Adjust cursor width as needed */
+  height: 1em; /* Adjust cursor height as needed */
+  background-color: #000; /* Adjust cursor color as needed */
+  animation: blink-animation 1s step-end infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
