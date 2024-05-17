@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -12,8 +11,6 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { ToursAds } from "./styles";
 
 const ToursCarosel = () => {
-  // console.log(ToursAds, "bu toursad");
-
   return (
     <div className="">
       <Swiper
