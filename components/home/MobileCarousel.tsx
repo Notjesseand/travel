@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { PageData } from "./styles";
+import { PageData } from "../styles";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 

@@ -42,7 +42,7 @@ body {
 }
 
 .blinking-cursor::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2px; /* Adjust cursor width as needed */
   height: 1em; /* Adjust cursor height as needed */

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import { overlayStyle, backgroundImageStyle } from "./styles";
+import Header from "../Header";
+import { overlayStyle, backgroundImageStyle } from "../styles";
 import Carousel from "./Carousel";
 import MobileCarousel from "./MobileCarousel";
 
@@ -15,7 +15,7 @@ const Hero = () => {
         <Header />
         <div className="flex flex-col justify-center min-h-[67vh] overflow-hidden md:px-14">
           <p className="text-white text-[50px] md:text-[70px] font-[800]">
-            Travel Time
+            Let The Journey Begin
           </p>
           <p className="text-white ">
             Don&apos;t let the loud noise scare you, <br /> Let the rythms of

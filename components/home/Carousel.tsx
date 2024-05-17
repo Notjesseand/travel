@@ -27,7 +27,7 @@ const Carousel = () => {
       }}
       pagination={{
         type: "progressbar",
-        style: { backgroundColor: "red", marginTop: "3px" },
+        // style: { backgroundColor: "red", marginTop: "3px" },
       }}
       modules={[Autoplay, Pagination]}
       className="mySwiper hidden md:block"

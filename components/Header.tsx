@@ -1,18 +1,20 @@
+// "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Logo from "@/public/logo.png";
 import { TfiSearch } from "react-icons/tfi";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 import { MdClose } from "react-icons/md";
+import Image from "next/image";
 
 const Header = () => {
   const [bars, setBars] = useState(false);
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  const toggleSearchbar=()=>{
-    setOpen(!open)
-  }
+  const toggleSearchbar = () => {
+    setOpen(!open);
+  };
 
   const toggle = () => {
     setBars((prevState) => !prevState);
@@ -55,7 +57,14 @@ const Header = () => {
     <div>
       <div className="bg-inherit text-white pt-5 md:pt-8 w-full border-b-[1.5px] rounded-sm  flex items-center justify-between">
         <div className="flex">
-          <img src={Logo} alt="" className="h-14 md:h-20 cursor-pointer" />
+          <img src="" alt="" />
+          <Image
+            src={Logo}
+            alt=""
+            height={60}
+            width={80}
+            className="h-14 md:h-20 cursor-pointer"
+          />
           <p className="flex items-center text-xl font-bold font-mono cursor-pointer">
             Werlton
           </p>
@@ -120,7 +129,7 @@ const Header = () => {
             id=""
             className="absolute blinking-cursor w-full flex mt-5 rounded-full py-3 outline-none border-2 border-orange-600 bg-slate-100 text-black px-4"
           />
-         )} 
+        )}
       </div>
     </div>
   );
