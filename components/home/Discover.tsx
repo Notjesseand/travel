@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React from "react";
 import { BsPlayCircle } from "react-icons/bs";
 import {
@@ -10,7 +10,7 @@ import { TiSocialPinterest } from "react-icons/ti";
 
 const Discover = () => {
   return (
-    <div className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center bg-[url(/waves.jpg)] bg-cover bg-center bg-fixed relative">
+    <div className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col justify-center bg-[url(https://res.cloudinary.com/dv62ty87r/image/upload/v1715954845/waves_oblclf.jpg)] bg-cover bg-center bg-fixed relative">
       <div className="bg-[url(/background4.jpg)] bg-black bg-opacity-60 w-full absolute h-screen inset-0 left-0 z-0"></div>
       <div className=" h-full flex flex-col justify-center font-bold z-50 relative">
         <p className="text-white text-5xl md:text-6xl md:w-[40%]">
@@ -22,11 +22,12 @@ const Discover = () => {
         </p>
         <div className="w-full py-4 grid grid-cols-1   md:flex gap-y-6 gap-x-3">
           <p className="text-white font-montserrat font-normal  md:w-2/5">
-            Travel isn&apos;t just about the destinations; it&apos;s about the moments that
-            unfold along the way. It&apos;s the joy of discovering new cultures, the
-            thrill of stepping into the unknown, and the stories that become a
-            part of our journey. Every adventure is a chapter in the book of
-            life, each page filled with memories that color our world.
+            Travel isn&apos;t just about the destinations; it&apos;s about the
+            moments that unfold along the way. It&apos;s the joy of discovering
+            new cultures, the thrill of stepping into the unknown, and the
+            stories that become a part of our journey. Every adventure is a
+            chapter in the book of life, each page filled with memories that
+            color our world.
           </p>
           <div className="flex-grow flex justify-between  space-x-5">
             <div className="h-full w-[50%] relative group">

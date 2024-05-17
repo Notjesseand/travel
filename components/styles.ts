@@ -4,7 +4,6 @@ import { BsGlobeAsiaAustralia } from "react-icons/bs";
 import { FaGift } from "react-icons/fa";
 import { SiHappycow } from "react-icons/si";
 
-
 export const overlayStyle: React.CSSProperties = {
   backgroundColor: "rgba(0, 0, 0, 0.43)",
   width: "100%",
@@ -48,43 +47,56 @@ export const PageData = [
 
 export const ToursAds = [
   {
-    image: "tour1.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954458/tour12_mc6twa.jpg",
   },
   {
-    image: "tour2.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954454/tour9_ugoq9a.jpg",
   },
   {
-    image: "tour3.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954454/tour8_zbjra1.jpg",
   },
   {
-    image: "tour4.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954454/tour6_vzn5fn.jpg",
   },
   {
-    image: "tour5.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954454/tour11_mv5vuz.jpg",
   },
   {
-    image: "tour6.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954453/tour10_xuxw25.jpg",
   },
   {
-    image: "tour7.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954452/tour1_xxa5my.jpg",
   },
   {
-    image: "tour8.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954450/tour7_ywhbjf.jpg",
   },
   {
-    image: "tour9.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954449/tour5_pxhc2a.jpg",
   },
   {
-    image: "tour10.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954449/tour5_pxhc2a.jpg",
   },
   {
-    image: "tour11.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954448/tour2_ilwhot.jpg",
   },
   {
-    image: "tour12.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954449/tour4_rkmtzg.jpg",
   },
   {
-    image: "tour13.jpeg",
+    image:
+      "https://res.cloudinary.com/dv62ty87r/image/upload/v1715954448/tour3_s300be.jpg",
   },
 ];
 

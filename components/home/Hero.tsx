@@ -5,9 +5,11 @@ import Carousel from "./Carousel";
 import MobileCarousel from "./MobileCarousel";
 
 const Hero = () => {
+  const backgroundImg = () => {};
+
   return (
     <div
-      className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col bg-[url(/new-bg.jpg)] bg-bottom bg-cover bg-fixed"
+      className="min-h-[100vh] w-full px-7 md:px-24 flex flex-col bg-[url(https://res.cloudinary.com/dv62ty87r/image/upload/v1715954330/new-bg_xroc2r.jpg)] bg-bottom bg-cover bg-fixed"
       // style={backgroundImageStyle}
     >
       <div style={overlayStyle}></div>

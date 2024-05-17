@@ -8,11 +8,11 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
-import image1 from "@/public/tour1.jpeg";
+// import image1 from "@/public/tour1.jpeg";
 import { ToursAds } from "./styles";
 
 const ToursCarosel = () => {
-  console.log(ToursAds, "bu toursad");
+  // console.log(ToursAds, "bu toursad");
 
   return (
     <div className="">
