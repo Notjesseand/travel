@@ -9,7 +9,7 @@ const TopDestinations = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto justify-center gap-y-8 px-8">
         {topDestinations.map((item: any, index: number) => (
           <Link
-            href={`/destinations/${item.city.replace(/\s+/g, "")}`}
+            href={`/destinations/${item.city.replace(/\s+/g, "-")}`}
             className="mx-auto bg-pink-400 w-11/12 aspect-[4/3] rounded relative flex flex-col justify-center bg-cover"
             key={index}
             style={{ backgroundImage: `url(${item.image})` }}
